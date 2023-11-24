@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "bucket_name" {
   description = "The name of the S3 bucket to be created"
-  default     = "AV-Bucket" // Replace with your desired bucket name
+  default     = "av-Bucket" // Replace with your desired bucket name
 }
 
 variable "bucket_acl" {
