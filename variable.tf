@@ -12,3 +12,18 @@ variable "bucket_acl" {
   description = "The Access Control List (ACL) for the bucket"
   default     = "private" // Change as needed (private, public-read, etc.)
 }
+
+variable "bucket_tag_name" {
+  description = "Name tag for the S3 bucket"
+  default = "MyS3Bucket"
+}
+
+variable "bucket_tag_environment" {
+  description = "Environment tag for the S3 bucket"
+  default = "Production"
+}
+
+variable "enable_versioning" {
+  description = "Enable versioning for the bucket"
+  default = true
+}
